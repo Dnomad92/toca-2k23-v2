@@ -10,7 +10,9 @@ export default function Layout(props) {
     <div className={[cssVars.root, styles.root].join(" ")}>
       <Head {...props} />
       <header className={styles.header}>
-        <Link to="/">gatsby-starter-landing-page</Link>
+        <Link to="/">achei vc!!  
+          <a href="https://wa.me/5581998373767?text=Oi%2C%20O%20link%20chamou%20minha%20atencao%20e%20eu%20gostaria%20de%20saber%20mais%20sobre%20como%20criar%20uma%20landing%20page%20perfeita">WHATSAPP -></a>
+        </Link>
       </header>
       <main className={styles.main}>{props.children}</main>
       <footer className={styles.footer}>
