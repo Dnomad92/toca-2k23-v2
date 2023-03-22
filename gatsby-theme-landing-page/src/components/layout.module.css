@@ -8,12 +8,12 @@
 }
 
 .header {
-  background: #fff;
+  background: var(--background-color);
   margin-bottom: 1.45rem;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: space-between;
   padding: 1.45rem 1.0875rem;
 
-  
+
 }
