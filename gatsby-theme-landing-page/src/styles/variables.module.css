@@ -3,10 +3,14 @@
  * This file can be shadowed to customize the theme components'
  * fonts, colors, and spacing
  */
+ @font-face{
+  font-family: "Nexa Heavy";
+  src: url(../../assets/Nexa_Heavy/Nexa-Heavy.otf); 
+}
 .root {
   /* typography */
-  --font: system-ui, sans-serif;
-  --font-heading: system-ui, sans-serif;
+  --font: "Nexa Heavy", system-ui, sans-serif;
+  --font-heading: "Nexa Heavy", system-ui, sans-serif;
   --line-height: 1.5;
   --line-height-heading: 1.25;
   --font-size-1: 12px;
@@ -16,23 +20,23 @@
   --font-size-5: 32px;
   --font-size-6: 48px;
   --letter-spacing-caps: 0.03em;
-  --font-weight-normal: 400;
+  --font-weight-normal: 200;
   --font-weight-semi-bold: 600;
   --font-weight-bold: 700;
   /* colors */
-  --text-color: pink;
-  --text-color-secondary: #555;
-  --background-color: white;
-  --link-color: #07c;
+ --text-color: black;
+  --text-color-secondary: #871087;
+  --background-color: #FFDB4D;
+  --link-color: black;
   --link-hover-color: #05a;
-  --primary-color: #08d;
-  --secondary-color: #70c;
-  --button-color: white;
-  --button-background-color: #07c;
-  --button-hover-color: #05a;
-  --button-secondary-color: #07c;
+  --primary-color: #510278 ;
+  --secondary-color:  #ffcc00;
+  --button-color: #FFDB4D;
+  --button-background-color: #871087;
+  --button-hover-color: #510278;
+  --button-secondary-color: black;
   --button-secondary-background-color: white;
-  --button-secondary-hover-color: rgb(215, 232, 250);
+  --button-secondary-hover-color: white;
   /* layout */
   --space-1: 4px;
   --space-2: 8px;
