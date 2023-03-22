@@ -6,3 +6,12 @@
   color: var(--text-color);
   background-color: var(--background-color);
 }
+
+.header {
+  background: #fff;
+  margin-bottom: 1.45rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.45rem 1.0875rem;
+}

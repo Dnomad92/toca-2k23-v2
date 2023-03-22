@@ -13,14 +13,14 @@ export default function Layout(props) {
       <header className={styles.header}>
         <div >
           <Link to="/">
-            <img src={logo} alt="Logo"  />
+            <img src={logo} alt="Logo" style={{ height: `50px`, marginRight: `1rem` }} />
           </Link>
         </div>
-        <div >
-          <Link to="/#caracteristicas" >Características</Link>
-          <Link to="/#beneficios" >Benefícios</Link>
-          <Link to="/#testemunhos" >Testemunhos</Link>
-          <Link to="/#contatos" >Contatos</Link>
+        <div style={{ display: `flex`, alignItems: `center` }}>
+          <Link to="/#caracteristicas" style={{ marginRight: `1rem` }}>Características</Link>
+          <Link to="/#beneficios" style={{ marginRight: `1rem` }}>Benefícios</Link>
+          <Link to="/#testemunhos" style={{ marginRight: `1rem` }}>Testemunhos</Link>
+          <Link to="/#contatos" style={{ marginRight: `1rem` }}>Contatos</Link>
         </div>
     
       </header>

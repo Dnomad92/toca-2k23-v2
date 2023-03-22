@@ -20,19 +20,19 @@
   --font-size-5: 32px;
   --font-size-6: 48px;
   --letter-spacing-caps: 0.03em;
-  --font-weight-normal: 400;
+  --font-weight-normal: 200;
   --font-weight-bold: 600;
   /* colors */
   --text-color: black;
-  --text-color-secondary: black;
+  --text-color-secondary: #871087;
   --background-color: #FFDB4D;
   --link-color: black;
   --link-hover-color: #05a;
   --primary-color: #510278 ;
   --secondary-color:  #ffcc00;
-  --button-color: white;
-  --button-background-color: black;
-  --button-hover-color: black;
+  --button-color: #FFDB4D;
+  --button-background-color: #871087;
+  --button-hover-color: #510278;
   --button-secondary-color: black;
   --button-secondary-background-color: white;
   --button-secondary-hover-color: white;
