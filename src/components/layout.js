@@ -16,7 +16,7 @@ export default function Layout(props) {
             <img src={logo} alt="Logo" style={{ height: `50px`, marginRight: `1rem` }} />
           </Link>
         </div>
-        <div style={{ display: `flex`, alignItems: `center` }}>
+        <div style={{ display: `flex`, alignItems: `center`, marginRight: `1rem`}}>
           <Link to="/#caracteristicas" style={{ marginRight: `1rem` }}>Características</Link>
           <Link to="/#beneficios" style={{ marginRight: `1rem` }}>Benefícios</Link>
           <Link to="/#testemunhos" style={{ marginRight: `1rem` }}>Testemunhos</Link>
