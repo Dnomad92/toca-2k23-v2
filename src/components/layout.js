@@ -11,16 +11,16 @@ export default function Layout(props) {
     <div className={[cssVars.root, styles.root].join(" ")}>
       <Head {...props} />
       <header className={styles.header}>
-        <div style={{ display: `flex`, alignItems: `center` }}>
+        <div >
           <Link to="/">
-            <img src={logo} alt="Logo" style={{ height: `50px`, marginRight: `1rem` }} />
+            <img src={logo} alt="Logo"  />
           </Link>
         </div>
-        <div style={{ display: `flex`, alignItems: `center` }}>
-          <Link to="/#caracteristicas" style={{ marginRight: `1rem` }}>Características</Link>
-          <Link to="/#beneficios" style={{ marginRight: `1rem` }}>Benefícios</Link>
-          <Link to="/#testemunhos" style={{ marginRight: `1rem` }}>Testemunhos</Link>
-          <Link to="/#contatos" style={{ marginRight: `1rem` }}>Contatos</Link>
+        <div >
+          <Link to="/#caracteristicas" >Características</Link>
+          <Link to="/#beneficios" >Benefícios</Link>
+          <Link to="/#testemunhos" >Testemunhos</Link>
+          <Link to="/#contatos" >Contatos</Link>
         </div>
     
       </header>
