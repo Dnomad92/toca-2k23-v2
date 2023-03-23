@@ -42,8 +42,8 @@
 }
 .header link:hover,
 .header link:focus {
-  text-decoration: underline;
-  color: var(--link-hover-color);
+  text-decoration: none;
+  color: var(--text-color-secondary);
 }
 
 .main {
