@@ -1,6 +1,7 @@
 .root {
   padding-top: var(--space-6);
   padding-bottom: var(--space-6);
+  background-color: var(--secondary-color);
 }
 
 .content {
