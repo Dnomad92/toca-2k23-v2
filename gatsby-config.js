@@ -24,7 +24,7 @@ if (!spaceId || !accessToken) {
 // starter config
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter Landing Page",
+    title: "Toca Da Design - PRO",
     description:
       "Create custom landing pages using Gatsby and Contentful with this Gatsby Starter",
   },
