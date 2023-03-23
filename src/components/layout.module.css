@@ -20,9 +20,8 @@
 }
 
 .header {
-  /* composes: container; */
+  composes: container;
   background-color: var(--background-color);
-  margin-bottom: 1.45rem;
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
@@ -43,6 +42,7 @@
 }
 .header link:hover,
 .header link:focus {
+  text-decoration: underline;
   color: var(--link-hover-color);
 }
 
